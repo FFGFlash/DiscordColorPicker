@@ -39,9 +39,9 @@ function rgb(r,g,b) {
 }
 
 function hex(h,e,x) {
-  this.h = h/100;
-  this.e = e/100;
-  this.x = x/100;
+  this.h = h;
+  this.e = e;
+  this.x = x;
 }
 
 function turnOnColorPicker() {
