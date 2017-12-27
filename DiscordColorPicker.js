@@ -13,6 +13,18 @@ function CPUpdate() {
       divs[i].style.backgroundColor = "rgb(" + Math.floor(parseInt(color[0]) * r) + ", " + Math.floor(parseInt(color[1]) * g) + ", " + Math.floor(parseInt(color[2]) * b) + ")";
     }
   }
+  
+  var forms = document.getElementsByTagName("form");
+  for(var i = 0; i < forms.length; i++){
+    if(window.getComputedStyle(forms[i])["background-color"].startsWith('rgb(')) {
+      var color = window.getComputedStyle(forms[i])["background-color"].replace('rgb(', '').replace(')', '').split(',');
+      if(typeof(forms[i].attributes.trueColor) == 'undefined')
+        forms[i].attributes.trueColor = color;
+      else
+        color = forms[i].attributes.trueColor;
+      forms[i].style.backgroundColor = "rgb(" + Math.floor(parseInt(color[0]) * r) + ", " + Math.floor(parseInt(color[1]) * g) + ", " + Math.floor(parseInt(color[2]) * b) + ")";
+    }
+  }
 }
 
 function rgb(r,g,b) {
