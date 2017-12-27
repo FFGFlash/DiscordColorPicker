@@ -11,6 +11,8 @@ function CPUpdate() {
       else
         color = divs[i].attributes.trueColor;
       divs[i].style.backgroundColor = "rgb(" + Math.floor(parseInt(color[0]) * r) + ", " + Math.floor(parseInt(color[1]) * g) + ", " + Math.floor(parseInt(color[2]) * b) + ")";
+    } else if (window.getComputedStyle(divs[i])["background-color"].startsWith('#')) {
+      divs[i].style.backgroundColor = "rgba(0,0,0,0)";
     }
   }
   
@@ -23,6 +25,8 @@ function CPUpdate() {
       else
         color = forms[i].attributes.trueColor;
       forms[i].style.backgroundColor = "rgb(" + Math.floor(parseInt(color[0]) * r) + ", " + Math.floor(parseInt(color[1]) * g) + ", " + Math.floor(parseInt(color[2]) * b) + ")";
+    } else if (window.getComputedStyle(forms[i])["background-color"].startsWith('#')) {
+      forms[i].style.backgroundColor = "rgba(0,0,0,0)";
     }
   }
 }
