@@ -1,12 +1,7 @@
 # DiscordColorPicker
 Allows you to change your Discord Look and Feel to any color you want!
 
-# How to Install
-First, Open Discord and press ``Ctrl+Shift+I``
-
-Next, Open the Console tab in the Developer Tools Menu
-
-Finally, Paste the following code into the Console
+Make sure to install the following function to install any other of my discord plugins!
 ```javascript
 function addScript(src) {
   var script = document.createElement("script");
@@ -14,7 +9,15 @@ function addScript(src) {
   document.head.appendChild(script);
   return script;
 }
+```
 
+# How to Install
+First, Open Discord and press ``Ctrl+Shift+I``
+
+Next, Open the Console tab in the Developer Tools Menu
+
+Finally, Paste the following code into the Console
+```javascript
 addScript("https://rawgit.com/NegativeThree/DiscordColorPicker/master/DiscordColorPicker.js");
 ```
 To know that it worked your Discord should turn black
