@@ -1,7 +1,7 @@
 # DiscordColorPicker
 Allows you to change your Discord Look and Feel to any color you want!
 
-Make sure to install the following function to install any other of my discord plugins!
+Make sure to install the following function to install any other of our discord plugins!
 ```javascript
 function addScript(src) {
   var script = document.createElement("script");
