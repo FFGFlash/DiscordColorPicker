@@ -46,3 +46,6 @@ If you'd like an easy way to get colors and easily set them,
 then goto https://www.w3schools.com/colors/colors_picker.asp and pick any color you like.
 
 Once you pick the color, copy the value formatted ``rgb(#, #, #)`` and paste it into the Console.
+
+# Examples
+![example_green_discord.png](/examples/green_discord.png?raw=true "")
