@@ -49,3 +49,4 @@ Once you pick the color, copy the value formatted ``rgb(#, #, #)`` and paste it 
 
 # Examples
 ![<example> green_discord.png](green_discord.png?raw=true "")
+![<example> red_discord.png](red_discord.png?raw=true "")
