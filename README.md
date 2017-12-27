@@ -15,5 +15,5 @@ function addScript(src) {
   return script;
 }
 
-addScript("https://raw.githubusercontent.com/NegativeThree/DiscordColorPicker/master/DiscordColorPicker.js");
+addScript("https://cdn.rawgit.com/NegativeThree/DiscordColorPicker/master/DiscordColorPicker.js");
 ```
