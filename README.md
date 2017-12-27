@@ -15,7 +15,7 @@ function addScript(src) {
   return script;
 }
 
-addScript("https://cdn.rawgit.com/NegativeThree/DiscordColorPicker/master/DiscordColorPicker.js");
+addScript("https://rawgit.com/NegativeThree/DiscordColorPicker/master/DiscordColorPicker.js");
 ```
 To know that it worked your Discord should turn black
 
