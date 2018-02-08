@@ -42,6 +42,9 @@ rgb(red, green, blue);
 
 // Used to set the color offset, used by the Color Rainbow module.
 hex(red, green, blue);
+
+// Used to set the color and alpha
+rgba(red, green, blue, alpha);
 ```
 
 If you'd like an easy way to get colors and easily set them,
